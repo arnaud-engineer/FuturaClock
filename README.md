@@ -1,4 +1,4 @@
-# FuturaClock
+# Futura Clock
 
 ## Introduction
 
