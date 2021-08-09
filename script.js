@@ -112,9 +112,6 @@ var monthsNamesFR = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Jui
         {
             var cTHTML = getCurrentTimeHTML();
             document.getElementById("time").innerHTML = cTHTML;
-            //var cleanText = cT.replace(/<\/?[^>]+(>|$)/g, "");//remove HTML
-            //cleanText = cleanText.slice(0, -3);//remove seconds
-            //cleanText.replace(" ", ":");
             var cT = getCurrentTime();
             document.title = cT;
         }
